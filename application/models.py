@@ -1,7 +1,3 @@
-from application import app
+from application import create_app
 
-@app.route('/')
-@app.route('/index')
-
-def index():
-    return "Hey Arzu"
+# from application import login
